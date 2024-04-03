@@ -61,11 +61,13 @@ export interface ComponentsCta extends Schema.Component {
   info: {
     displayName: 'CTA';
     icon: 'folder';
+    description: '';
   };
   attributes: {
     heading: Attribute.String;
     body: Attribute.Text;
     buttonText: Attribute.String;
+    alignment: Attribute.Enumeration<['left', 'center', 'right']>;
   };
 }
 
@@ -95,6 +97,7 @@ export interface ComponentsHero extends Schema.Component {
     alignment: Attribute.Enumeration<['left', 'center', 'right']>;
     imageURL: Attribute.Media;
     imagePosition: Attribute.Enumeration<['above', 'below']>;
+    isHighlight: Attribute.Boolean;
   };
 }
 
