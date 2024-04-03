@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_collapsible_contents",
+  "info": {
+    "displayName": "CollapsibleContent",
+    "icon": "folder",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "collapsibleContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.collapsible-content-card"
+    }
+  }
+}

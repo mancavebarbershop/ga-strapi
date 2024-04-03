@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_seos",
+  "info": {
+    "displayName": "SEO",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "metadescription": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_collapsible_content_cards",
+  "info": {
+    "displayName": "collapsibleContent",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  }
+}

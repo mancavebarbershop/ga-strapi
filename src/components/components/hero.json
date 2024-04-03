@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_components_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "folder",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "topHeading": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ]
+    },
+    "imageURL": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imagePosition": {
+      "type": "enumeration",
+      "enum": [
+        "above",
+        "below"
+      ]
+    }
+  }
+}

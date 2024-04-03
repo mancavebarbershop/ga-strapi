@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_ctas",
+  "info": {
+    "displayName": "CTA",
+    "icon": "folder"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    },
+    "buttonText": {
+      "type": "string"
+    }
+  }
+}
