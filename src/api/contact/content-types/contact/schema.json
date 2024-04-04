@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.seo"
+    },
+    "layout": {
+      "type": "dynamiczone",
+      "components": [
+        "components.collapsible-content",
+        "components.cta",
+        "components.feature-cards",
+        "components.hero"
+      ]
+    }
+  }
+}
